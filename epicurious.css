@@ -1,0 +1,532 @@
+*{
+    padding: 0% auto;
+    margin-top: 0% ;
+}
+
+#div1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    position: fixed;
+    padding: 0%;
+    background-color: white;
+    z-index: 1;
+}
+#div1 a{
+    text-decoration: none;
+    color: rgb(137, 136, 136);
+}
+#div1-1{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding-left: 10px;
+}
+#div1-2{
+    display: flex;
+}
+#div1-2 a{
+    color: rgb(237, 76, 76);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+#i1,#i2,#i3{
+    height: 22px;
+    width: 22px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100px;
+    background-color: rgb(237, 76, 76);
+    color:white;
+}
+#div1-3{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+#div2{
+    height: 450px;
+    background-image: url("./PR-2;IMAGES/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#div2 h1{
+    font-size: 50px;
+}
+#a1{
+    text-decoration: none;
+}
+#a1 i{
+    color: black;
+    display: flex;
+    align-items: flex-start;
+}
+#div2 button{
+    height: 40px;
+    width: 500px;
+}
+#a2{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+#div3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#div3-2{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    text-align: center; 
+    position: relative;  
+    bottom: 40px;
+    background-color: white;
+}
+#div3-2 a{
+    text-decoration: none;
+    color: black;
+}
+#div3-3{
+    border-top: 2px solid rgb(204, 203, 203);
+    width: 60px;
+   margin-top: 10PX;
+}
+#div3-2a:hover{
+    text-decoration: underline;
+}
+#div4{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+}
+#div4-1{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#div4-2{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#div4 a{
+    text-decoration: none;
+    color: black;
+}
+#div4-a{
+    border-bottom: 2px solid rgb(204, 203, 203);
+    width: 50px;
+    height: 10px;
+    margin-left: 40%;
+}
+#div4-b{
+    border-bottom: 2px solid rgb(204, 203, 203);
+    width: 50px;
+    height: 10px;
+    margin-left: 40%;
+}
+#hr1{
+    width: 60%;
+    margin-top: 20px;
+}
+#div5{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div5-1 button{
+    height: 35px;
+    width: 150px;
+    font-size: 12px;
+    background-color: rgb(255, 61, 61);
+    border: none;
+    position: relative;
+    top: 20px;
+}
+#div5 img{
+    width: 800px;
+}
+#div5-2a a{
+    text-decoration: none;
+
+}
+#b1{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+    color: black;
+}
+#b2{
+    margin-bottom: 200px;
+    font-size: 13px;
+    line-height: 50px;
+    color: black;
+}
+#b3{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(247, 77, 77);
+}
+#b4::before{
+    content: url("./PR-2;IMAGES/6.webp");
+    
+}
+#b5::before{
+    content: url("./PR-2;IMAGES/7.webp");
+}
+#b6::before{
+    content: url("./PR-2;IMAGES/8.webp");
+}
+#B3 a{
+    color: black;
+    font-weight: 900px;
+    line-height: 20px;
+}
+#div5-2a{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+#B2{
+    border-left: 2px solid rgb(196, 193, 193);
+}
+#div6{
+    border-top: 2px solid rgb(199, 196, 196);
+    width: 65%;
+    margin-top: 25px;
+    margin-left: 190px;
+}
+#div7 img{
+    height: 200px;
+    width: 300px;
+}
+.table-a{
+    text-decoration: none;
+    color:rgb(174, 171, 171);
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 12px;
+}
+.table-b{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 20px;
+    font-weight: bold;
+}
+.table-c{
+    text-decoration: none;
+    color:rgb(241, 66, 66);
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+#div7 hr{
+    width: 20%;
+}
+.table1{
+    text-decoration: none;
+}
+.table1:hover .table-b{
+    text-decoration: underline;
+}
+#div8{
+    /* height: 500px; */
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#div8-1 div{
+    width: 30%;
+    border-top: 2px solid;
+    margin-top: 20px;
+}
+#div8-1{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 50px;
+}
+#table2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+#div8-2{
+    height: 70px;
+    background-color: rgb(255, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#div8-2 input{
+    height: 30px;
+    width: 160px;
+    margin-left: 20px;
+    font-size: 10px;
+    border: none;
+}
+#div8-2 button{
+    height: 32px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+#div9 img{
+    height: 450px;  
+}
+#div9{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#div9-1{
+    height: 350px;
+    width: 800px;
+    border: 2px solid white ;
+    position: relative;
+    bottom: 420px;
+    padding: 20px;
+}
+#div9-2{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: white;
+    height: 270px;
+    margin-left: 440px;margin-top: 40px;
+
+}
+#div9-1 button{
+    width: 150px;
+    background-color: rgb(255, 20, 20);
+    border: none;
+    height: 30px;
+    margin-left: 95px;
+    position: relative;
+    top: 55px;
+    left: 430px;
+    color: white;
+    font-weight: bold;
+}
+#div9-3{
+    margin-top: 40px;
+    text-align: center;
+}
+#div9a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#div9b{
+    text-decoration: none;
+    color: rgb(241, 31, 31);
+    font-size: 14px;
+}
+#div9a:hover{
+    text-decoration: underline;
+}
+#div10{
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    bottom: 250px;
+}
+#table3{
+    text-align: center; 
+}
+#table3 a{
+    text-decoration: none;
+}
+.table-3p1{
+    color: rgb(121, 121, 121);
+}
+#p1{
+    font-family: Source Serif Pro",serif";
+    font-size: 45px;
+    color: black;
+}
+#p2{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+#p3{
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p4{
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+}
+#p5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+#p6{
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.div10-a{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+#div10-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 50px;
+}
+#div10-b,#div10-c{
+    height: 270px;
+    border-left: 1px solid rgb(150, 148, 148);
+}
+.div10-a a{
+    color: black;
+    text-decoration: none;
+    font-size: 13.5px;
+}
+.div10-a a:hover{
+    text-decoration: underline;
+}
+#div10-2{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(253, 44, 44);
+}
+.div10-b{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.div10-b a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.div10-b a:hover{
+    text-decoration: underline;
+}
+#div10-2a i{
+    background-color: white;
+    border: 2px solid;
+    color: red;
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#div10-2a a{
+    text-decoration: none;
+    color: white;
+}
+#div10-2a{
+    margin-top: 40px;
+}
+#epic{
+    font-size: 40px;
+    font-weight: bold;
+}
+#div10-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#div10-3b a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+#div10-3a label{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#div10-3a select{
+    height: 35px;
+    margin-top: 40px;
+}
+#div10-3b{
+    margin-top: 40px;
+}
+#div10-3-1{
+    background-color: black;
+    height: 250px;
+    
+}
+#div10-3c {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+#div10-3c button{
+    height: 30px;
+}
+#div10-3d{
+    color: white;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 100px;
+}
